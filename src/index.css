@@ -1,1 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --color-brandDark: #0b0b0d;
+  --color-brandBlue: #125795;
+}
+
+/* @utility .container-custom {
+    container-custom:{
+        center: true,
+        
+    }
+    padding:{
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl:"5rem",
+        "2xl": "6rem",
+    }
+} */
+/* @theme {
+    --fontFamil-monts: "Montserrat", sans-serif;
+    --fontFamily-merri:"Merriweather", serif;
+    --container-custom:{
+    center: true,
+    padding:{
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl:"5rem",
+        "2xl": "6rem",
+    }
+   }
+  } */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
