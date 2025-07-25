@@ -34,9 +34,9 @@ npm run dev
 outdoor-travel-react/
 ├── public/
 ├── src/
-│   ├── assets/            # Images and icons
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Main page sections (Home, Destinations, etc.)
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
 │   ├── App.jsx
 │   ├── main.jsx
 ├── tailwind.config.js
